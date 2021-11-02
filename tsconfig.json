@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+      "declaration": false,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "lib": [
+        "es6",
+        "dom"
+      ],
+      "module": "esnext",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "target": "es5",
+      "jsx": "react-jsx",
+      "noEmit": true,
+      "typeRoots": [
+        "types",
+        "node_modules/@types"
+      ],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true
+    },
+    "exclude": [
+      "**/*.spec.ts",
+      "node_modules",
+      "vendor",
+      "public"
+    ],
+    "compileOnSave": false,
+    "include": [
+      "app"
+    ]
+  }
