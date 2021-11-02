@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import Box from '@material-ui/core/Box'
 import Avatar from '@material-ui/core/Avatar'
 import Typography from '@material-ui/core/Typography'
-import "../assets/myavatar.scss";
+import "../../assets/stylesheet/myavatar.scss";
 import icon from '../images/icon.jpg'
 import myphoto from '../images/me.jpg'
 import sneakers from '../images/sneakers.jpg'
