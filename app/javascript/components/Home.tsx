@@ -1,9 +1,9 @@
 import React from 'react'
 import "../../assets/stylesheet/home.scss";
-import Contact from '../../../javascript/components/Contact'
-import MyAvatar from '../../../javascript/components/MyAvatar';
-import Informations from '../../../javascript/components/Informations';
-import ScrollUp from '../../../javascript/components/Scrollup';
+import Contact from './Contact'
+import MyAvatar from './MyAvatar';
+import Informations from './Informations';
+import ScrollUp from './Scrollup';
 
 const Home: React.FC = () => {
   return (
