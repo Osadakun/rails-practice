@@ -5,7 +5,8 @@ import MyAvatar from './MyAvatar';
 import Informations from './Informations';
 import ScrollUp from './Scrollup';
 
-const Home: React.FC = () => {
+class Home extends React.Component {
+  render(){
   return (
     <>
       <header>
@@ -42,6 +43,7 @@ const Home: React.FC = () => {
       <ScrollUp />
     </>
   );
+}
 }
 
 export default Home;
