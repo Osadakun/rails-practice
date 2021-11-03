@@ -1,16 +1,19 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "lib": ["es6", "dom"],
     "module": "es6",
     "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+        "*": ["node_modules/*", "app/javascript/*"]
+    },
     "sourceMap": true,
     "target": "es5",
-    "jsx": "react",
-    "noEmit": true
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react"
   },
   "exclude": [
     "**/*.spec.ts",
