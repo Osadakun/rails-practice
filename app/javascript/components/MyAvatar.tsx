@@ -3,10 +3,10 @@ import { makeStyles } from '@material-ui/core/styles'
 import Box from '@material-ui/core/Box'
 import Avatar from '@material-ui/core/Avatar'
 import Typography from '@material-ui/core/Typography'
-import "../assets/stylesheet/myavatar.scss";
-import icon from '../images/icon.jpg'
-import myphoto from '../images/me.jpg'
-import sneakers from '../images/sneakers.jpg'
+import "/Users/onotoshiki/Code/myapp/proapp/app/assets/stylesheets/myavatar.scss";
+import icon from '/Users/onotoshiki/Code/myapp/proapp/app/javascript/images/icon.jpg'
+import myphoto from '/Users/onotoshiki/Code/myapp/proapp/app/javascript/images/me.jpg'
+import sneakers from '/Users/onotoshiki/Code/myapp/proapp/app/javascript/images/sneakers.jpg'
 
 const useStyles = makeStyles((theme) => ({
   // 表示サイズを指定
